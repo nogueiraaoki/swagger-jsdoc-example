@@ -1,0 +1,33 @@
+{
+  "info": {
+    "title": "Swagger-jsdoc",
+    "version": "1.0.0",
+    "description": "A sample API"
+  },
+  "host": "http://undefined:undefined",
+  "basePath": "/",
+  "swagger": "2.0",
+  "paths": {
+    "/health": {
+      "get": {
+        "description": "return health status of service",
+        "tags": [
+          "health"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "return true or false"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {},
+  "responses": {},
+  "parameters": {},
+  "securityDefinitions": {},
+  "tags": []
+}
